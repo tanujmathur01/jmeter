@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1745944784428,2500,Get Products,200,OK,Thread Group 1-1,text,true,,45403,123,1,1,https://dummyjson.com/products,1887,0,1548
+1745944787090,331,Get Single  Product,200,OK,Thread Group 1-1,text,true,,2639,125,1,1,https://dummyjson.com/products/1,331,0,0
+1745944787423,304,Limit & Skip Product,200,OK,Thread Group 1-1,text,true,,1709,159,1,1,"https://dummyjson.com/products?limit=10&skip=10&select=title,price",304,0,0
+1745944787729,324,Sort  Product,200,OK,Thread Group 1-1,text,true,,49198,146,1,1,https://dummyjson.com/products?sortBy=title&order=asc,313,0,0
+1745944788055,288,Get all Product Categories,200,OK,Thread Group 1-1,text,true,,3634,134,1,1,https://dummyjson.com/products/categories,288,0,0
+1745944788345,304,Get Product Category list,200,OK,Thread Group 1-1,text,true,,1475,137,1,1,https://dummyjson.com/products/category-list,304,0,0
+1745944788652,311,Get Product Category,200,OK,Thread Group 1-1,text,true,,27260,144,1,1,https://dummyjson.com/products/category/smartphones,308,0,0
+1745944788966,297,Add New Product,201,Created,Thread Group 1-1,text,true,,1145,211,1,1,https://dummyjson.com/products/add,296,0,0
+1745944789265,307,Update  Product,200,OK,Thread Group 1-1,text,true,,1677,214,1,1,https://dummyjson.com/products/1,307,0,0
+1745944789575,294,Delete  Product,200,OK,Thread Group 1-1,text,true,,2687,211,1,1,https://dummyjson.com/products/1,293,0,0

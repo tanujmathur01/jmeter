@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Groww">
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="base_url" elementType="Argument">
+            <stringProp name="Argument.name">base_url</stringProp>
+            <stringProp name="Argument.value">groww.in</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
+        <collectionProp name="HeaderManager.headers"/>
+      </HeaderManager>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP CookieManager">
+        <collectionProp name="CookieManager.cookies">
+          <elementProp name="csrftoken" elementType="Cookie" testname="csrftoken">
+            <stringProp name="Cookie.value">na3KbTPRHvi9La4uVBYXIHTXwT8DSRO6X3MlKaflFBtYhCkPxaZ7oWprETrn4kPO</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="sessionid" elementType="Cookie" testname="sessionid">
+            <stringProp name="Cookie.value">nc4v2df6wft5900gpnkhtmraqs6an2x9</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="__gads" elementType="Cookie" testname="__gads">
+            <stringProp name="Cookie.value">ID=abe701a38d1483a5:T=1745737396:RT=1746244349:S=ALNI_MZMsoGM87Bz2xVPTUcgWeN3CoV-pg</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="__gpi" elementType="Cookie" testname="__gpi">
+            <stringProp name="Cookie.value">UID=000010b2e587d1ec:T=1745737396:RT=1746244349:S=ALNI_MYqi93qa3fhXefzxKJjP7mtVtVNSQ</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="__eoi" elementType="Cookie" testname="__eoi">
+            <stringProp name="Cookie.value">ID=e07cd5ea91be38d4:T=1745737396:RT=1746244349:S=AA-AfjYeJKjd6BCHqwy6NgwwR4sD</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="FCNEC" elementType="Cookie" testname="FCNEC">
+            <stringProp name="Cookie.value">%5B%5B%22AKsRol_b0yI4-L5IfFYfJfkkaK4BpOIv4h7aT9mEU94vQLIEynINQKxbzM8-kKivwYm2uDv8DK2V7iUDqEN6GO1izMiGR-B0ijbN1qO97Atcp8mlGfzklkjnNLonevHD3TjoNotcxwfQsvN7knmqez59wNkoTLsCtA%3D%3D%22%5D%5D</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="csrftoken" elementType="Cookie" testname="csrftoken">
+            <stringProp name="Cookie.value">na3KbTPRHvi9La4uVBYXIHTXwT8DSRO6X3MlKaflFBtYhCkPxaZ7oWprETrn4kPO</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="sessionid" elementType="Cookie" testname="sessionid">
+            <stringProp name="Cookie.value">nc4v2df6wft5900gpnkhtmraqs6an2x9</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="__gads" elementType="Cookie" testname="__gads">
+            <stringProp name="Cookie.value">ID=abe701a38d1483a5:T=1745737396:RT=1746244349:S=ALNI_MZMsoGM87Bz2xVPTUcgWeN3CoV-pg</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="__gpi" elementType="Cookie" testname="__gpi">
+            <stringProp name="Cookie.value">UID=000010b2e587d1ec:T=1745737396:RT=1746244349:S=ALNI_MYqi93qa3fhXefzxKJjP7mtVtVNSQ</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="__eoi" elementType="Cookie" testname="__eoi">
+            <stringProp name="Cookie.value">ID=e07cd5ea91be38d4:T=1745737396:RT=1746244349:S=AA-AfjYeJKjd6BCHqwy6NgwwR4sD</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+          <elementProp name="FCNEC" elementType="Cookie" testname="FCNEC">
+            <stringProp name="Cookie.value">%5B%5B%22AKsRol_b0yI4-L5IfFYfJfkkaK4BpOIv4h7aT9mEU94vQLIEynINQKxbzM8-kKivwYm2uDv8DK2V7iUDqEN6GO1izMiGR-B0ijbN1qO97Atcp8mlGfzklkjnNLonevHD3TjoNotcxwfQsvN7knmqez59wNkoTLsCtA%3D%3D%22%5D%5D</stringProp>
+            <stringProp name="Cookie.domain">automationexercise.com</stringProp>
+            <stringProp name="Cookie.path">/payment</stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">false</boolProp>
+            <boolProp name="Cookie.domain_specified">false</boolProp>
+          </elementProp>
+        </collectionProp>
+        <stringProp name="TestPlan.comments">Created from cURL on 2025-05-03T13:40:50.9947981</stringProp>
+        <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+        <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+      </CookieManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
+        <intProp name="ThreadGroup.num_threads">10</intProp>
+        <intProp name="ThreadGroup.ramp_time">30</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="false">
+          <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/v1/api/user/core/auth/login/email</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="emailId" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                <stringProp name="Argument.value">i.nfusedr.aind.r.ops.126@gmail.com</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">emailId</stringProp>
+              </elementProp>
+              <elementProp name="gmailLogin" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                <stringProp name="Argument.value">false</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">gmailLogin</stringProp>
+              </elementProp>
+              <elementProp name="password" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                <stringProp name="Argument.value">Test@123</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">password</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name"></stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request">
+          <stringProp name="TestPlan.comments">Created from cURL on 2025-05-03T13:40:50.9947981</stringProp>
+          <stringProp name="HTTPSampler.domain">automationexercise.com</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/payment</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">csrfmiddlewaretoken=cTcrbfBrK3SH7vsAaSwopytakDJntSH7MMV2Kw1VI93wDXIVMrxy5NZEsD27FlIP&amp;name_on_card=Joe+Sharma&amp;card_number=1234567890098765&amp;cvc=789&amp;expiry_month=12&amp;expiry_year=2019</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP HeaderManager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accept" elementType="Header">
+                <stringProp name="Header.name">accept</stringProp>
+                <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7</stringProp>
+              </elementProp>
+              <elementProp name="accept-language" elementType="Header">
+                <stringProp name="Header.name">accept-language</stringProp>
+                <stringProp name="Header.value">en-GB,en-US;q=0.9,en;q=0.8</stringProp>
+              </elementProp>
+              <elementProp name="cache-control" elementType="Header">
+                <stringProp name="Header.name">cache-control</stringProp>
+                <stringProp name="Header.value">max-age=0</stringProp>
+              </elementProp>
+              <elementProp name="content-type" elementType="Header">
+                <stringProp name="Header.name">content-type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="origin" elementType="Header">
+                <stringProp name="Header.name">origin</stringProp>
+                <stringProp name="Header.value">https://automationexercise.com</stringProp>
+              </elementProp>
+              <elementProp name="priority" elementType="Header">
+                <stringProp name="Header.name">priority</stringProp>
+                <stringProp name="Header.value">u=0, i</stringProp>
+              </elementProp>
+              <elementProp name="referer" elementType="Header">
+                <stringProp name="Header.name">referer</stringProp>
+                <stringProp name="Header.value">https://automationexercise.com/payment</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua</stringProp>
+                <stringProp name="Header.value">&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                <stringProp name="Header.value">?0</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua-platform" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-dest" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                <stringProp name="Header.value">document</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-mode" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                <stringProp name="Header.value">navigate</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-site" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-site</stringProp>
+                <stringProp name="Header.value">same-origin</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-user" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-user</stringProp>
+                <stringProp name="Header.value">?1</stringProp>
+              </elementProp>
+              <elementProp name="upgrade-insecure-requests" elementType="Header">
+                <stringProp name="Header.name">upgrade-insecure-requests</stringProp>
+                <stringProp name="Header.value">1</stringProp>
+              </elementProp>
+              <elementProp name="user-agent" elementType="Header">
+                <stringProp name="Header.name">user-agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36</stringProp>
+              </elementProp>
+            </collectionProp>
+            <stringProp name="TestPlan.comments">Created from cURL on 2025-05-03T13:40:50.9947981</stringProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+          <collectionProp name="HeaderManager.headers">
+            <elementProp name="accept" elementType="Header">
+              <stringProp name="Header.name">Accept</stringProp>
+              <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Accept-encoding</stringProp>
+              <stringProp name="Header.value">gzip, deflate, br, zstd</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Accept-language</stringProp>
+              <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Authorization</stringProp>
+              <stringProp name="Header.value"></stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Content-length</stringProp>
+              <stringProp name="Header.value">333</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Content-type</stringProp>
+              <stringProp name="Header.value">application/json</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Cookie</stringProp>
+              <stringProp name="Header.value">_cfuvid=jfIUrNuLDXE6aJDcNnFqbHwSQkqaa8L_rkR6dOy4nfg-1744370667723-0.0.1.1-604800000; _gcl_au=1.1.1166836512.1744370669; _ga=GA1.1.1492865602.1744370670; _ga_BNCSRMD1F4=GS1.1.1744370669.1.1.1744371181.0.0.0; we_luid=29258fd6bb06cce3128e82cd002c1ffd28490a75</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name"></stringProp>
+              <stringProp name="Header.value"></stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name"></stringProp>
+              <stringProp name="Header.value"></stringProp>
+            </elementProp>
+          </collectionProp>
+        </HeaderManager>
+        <hashTree/>
+        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="false">
+          <collectionProp name="CookieManager.cookies"/>
+          <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+          <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+        </CookieManager>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
