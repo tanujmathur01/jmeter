@@ -1,0 +1,10 @@
+- Install jmeter/
+- Install Visual C++ Build tools .
+- Install python above 3.7+ version. Select "Add to path" checkbox during installation.
+- pip install bzt (To install Tauras)
+- Open command prompt.
+- Now execute the .jmx script - C: > bzt D:\jmeter\Orange_hrm.jmx
+- Check the artifact folder in c drive named Artifacts dir: C:\2025-04-30_14-03-03.096160
+- Type "pip install packaging" in cmd window to Install packaging module for reports in tauras.
+- Generate report by using the generated .jtl file from artifact folder.
+ Type in cmd window "bzt C:\2025-04-30_12-48-01.843011\kpi.jtl -report"
